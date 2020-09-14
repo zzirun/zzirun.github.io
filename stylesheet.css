@@ -111,7 +111,7 @@ body
 }
 
 .p {
-    animation: fadeIn;
+    animation: fadeIn 0.5s;
 }
 
 .l-title {
