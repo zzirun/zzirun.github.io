@@ -63,6 +63,29 @@ body
 
 
 .content {
-    padding-top: 6rem;
+    padding-top: 8rem;
     padding-bottom: 12rem;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.content-index {
+    padding-top: 10rem;
+    padding-bottom: 12rem;
+    padding-left: 10%;
+    padding-right: 20%;
+}
+
+.l-title {
+    font-family: "librebaskerville-bold", serif;
+    font-size: 6rem;
+    line-height: 1.227;
+    color: #393b44;
+}
+
+.text-alt {
+    font-family: "montserrat-regular", sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.875;
+    color: #393b44;
 }
