@@ -10,6 +10,11 @@
     to {color: #d6e0f0;}
 }
 
+@keyframes fadein {
+    from {opacity: 0; }
+    to   {opacity: 1; }
+}
+
 html
 {
     font-size: 10px;
@@ -103,6 +108,10 @@ body
     padding-bottom: 12rem;
     padding-left: 10%;
     padding-right: 10%;
+}
+
+.p {
+    animation: fadeIn;
 }
 
 .l-title {
