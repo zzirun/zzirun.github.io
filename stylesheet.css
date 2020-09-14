@@ -1,5 +1,15 @@
 @import url("./fonts.css");
 
+@keyframes linkFadeIn {
+    from {color: #d6e0f0;}
+    to {color: #40a8c4;}
+}
+
+@keyframes reverseLinkFadeIn {
+    from {color: #40a8c4;}
+    to {color: #d6e0f0;}
+}
+
 html
 {
     font-size: 10px;
@@ -53,12 +63,30 @@ body
 .main-nav-links li a {
     display: block;
     line-height: 72px;
+    text-decoration: none;
     color: #d6e0f0;
+}
+
+.main-nav-links li a:hover {
+    display: block;
+    line-height: 72px;
+    text-decoration: none;
+    animation: linkFadeIn 0.5s;
+    color: #40a8c4;
 }
 
 .main-nav-links li.current a {
     font-family: "montserrat-extrabold", sans-serif;
+    text-decoration: none;
     color: #40a8c4;
+}
+
+.main-nav-links li.current a:hover {
+    display: block;
+    line-height: 72px;
+    text-decoration: none;
+    animation: reverseLinkFadeIn 0.5s;
+    color: #d6e0f0;
 }
 
 
