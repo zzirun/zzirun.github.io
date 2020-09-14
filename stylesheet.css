@@ -58,7 +58,7 @@ body
 
 .main-nav-links li.current a {
     font-family: "montserrat-extrabold", sans-serif;
-    color: #ee6f57;
+    color: #40a8c4;
 }
 
 
@@ -73,7 +73,7 @@ body
     padding-top: 10rem;
     padding-bottom: 12rem;
     padding-left: 10%;
-    padding-right: 20%;
+    padding-right: 10%;
 }
 
 .l-title {
