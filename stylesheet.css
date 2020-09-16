@@ -99,8 +99,8 @@ body
 .content {
     padding-top: 8rem;
     padding-bottom: 12rem;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .content-index {
@@ -124,6 +124,20 @@ body
 .text-alt {
     font-family: "montserrat-regular", sans-serif;
     font-size: 1.6rem;
+    line-height: 1.875;
+    color: #393b44;
+}
+
+.text-alt-l {
+    font-family: "montserrat-regular", sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.875;
+    color: #393b44;
+}
+
+.small-text {
+    font-family: "librebaskerville-regular", sans-serif;
+    font-size: 1.3rem;
     line-height: 1.875;
     color: #393b44;
 }
