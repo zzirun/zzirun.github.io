@@ -2,11 +2,11 @@
 
 @keyframes linkFadeIn {
     from {color: #d6e0f0;}
-    to {color: #40a8c4;}
+    to {color: #caa37a;}
 }
 
 @keyframes reverseLinkFadeIn {
-    from {color: #40a8c4;}
+    from {color: #caa37a;}
     to {color: #d6e0f0;}
 }
 
@@ -42,6 +42,24 @@ body
     z-index: 500;
 }
 
+.header-logo {
+    font-family: "montserrat-bold", sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: .25rem;
+    position: absolute;
+    top: 0px;
+    left: 50px;
+}
+
+.header-text {
+    display: block;
+    margin: 0;
+    margin-left: 2rem;
+    line-height: 72px;
+    color: #caa37a;
+}
+
 
 .main-nav {
     font-family: "montserrat-bold", sans-serif;
@@ -62,7 +80,6 @@ body
 
 .main-nav-links li {
     display: inline-block;
-    padding-left: 0;
     margin-right: 2rem;
 }
 
@@ -78,13 +95,13 @@ body
     line-height: 72px;
     text-decoration: none;
     animation: linkFadeIn 0.5s;
-    color: #40a8c4;
+    color: #caa37a;
 }
 
 .main-nav-links li.current a {
     font-family: "montserrat-extrabold", sans-serif;
     text-decoration: none;
-    color: #40a8c4;
+    color: #caa37a;
 }
 
 .main-nav-links li.current a:hover {
@@ -104,10 +121,10 @@ body
 }
 
 .content-index {
-    padding-top: 10rem;
+    padding-top: 16rem;
     padding-bottom: 12rem;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .p {
@@ -117,7 +134,7 @@ body
 .l-title {
     font-family: "librebaskerville-bold", serif;
     font-size: 6rem;
-    line-height: 1.227;
+    line-height: 0.6;
     color: #393b44;
 }
 
@@ -140,4 +157,13 @@ body
     font-size: 1.3rem;
     line-height: 1.875;
     color: #393b44;
+}
+
+.profile-pic {
+    display: block;
+    border-radius: 50%;
+}
+
+.pfp {
+    vertical-align: bottom;
 }
