@@ -15,6 +15,11 @@
     to   {opacity: 1; }
 }
 
+@keyframes textFadeIn {
+    from {color: #393b44;}
+    to   {color: #caa37a;}
+}
+
 html
 {
     font-size: 10px;
@@ -123,8 +128,16 @@ body
 .content-index {
     padding-top: 16rem;
     padding-bottom: 12rem;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 19%;
+    
+}
+
+.content-edu {
+    position: fixed;
+    top: 50%;
+    left: 45%;
+    margin-top: -100px;
+    margin-left: -200px;
 }
 
 .p {
@@ -134,7 +147,14 @@ body
 .l-title {
     font-family: "librebaskerville-bold", serif;
     font-size: 6rem;
-    line-height: 0.6;
+    line-height: 1.0;
+    color: #393b44;
+}
+
+.i-title {
+    font-family: "librebaskerville-bold", serif;
+    font-size: 6rem;
+    line-height: 0.4;
     color: #393b44;
 }
 
@@ -143,6 +163,22 @@ body
     font-size: 1.6rem;
     line-height: 1.875;
     color: #393b44;
+}
+
+.text-alt a {
+    font-family: "montserrat-regular", sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.875;
+    text-decoration:none;
+    color: #393b44;
+}
+
+.text-alt a:hover {
+    font-family: "montserrat-regular", sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.875;
+    animation: textFadeIn 0.5s;
+    color: #caa37a;
 }
 
 .text-alt-l {
@@ -165,5 +201,14 @@ body
 }
 
 .pfp {
-    vertical-align: bottom;
+    vertical-align: middle;
+    width: 350px;
+}
+
+.intro-text {
+    width: 475px;
+}
+
+.edu-table {
+    width: 250px;
 }
