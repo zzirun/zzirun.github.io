@@ -133,11 +133,10 @@ body
 }
 
 .content-edu {
-    position: fixed;
-    top: 50%;
-    left: 45%;
-    margin-top: -100px;
-    margin-left: -200px;
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .p {
@@ -161,38 +160,23 @@ body
 .text-alt {
     font-family: "montserrat-regular", sans-serif;
     font-size: 1.6rem;
-    line-height: 1.875;
+    line-height: 1.8;
     color: #393b44;
 }
 
-.text-alt a {
-    font-family: "montserrat-regular", sans-serif;
-    font-size: 1.6rem;
-    line-height: 1.875;
-    text-decoration:none;
-    color: #393b44;
-}
-
-.text-alt a:hover {
-    font-family: "montserrat-regular", sans-serif;
-    font-size: 1.6rem;
-    line-height: 1.875;
-    animation: textFadeIn 0.5s;
-    color: #caa37a;
-}
 
 .text-alt-l {
     font-family: "montserrat-regular", sans-serif;
     font-size: 1.8rem;
-    line-height: 1.875;
+    line-height: 1;
     color: #393b44;
 }
 
 .small-text {
-    font-family: "librebaskerville-regular", sans-serif;
+    font-family: "montserrat-regular", sans-serif;
     font-size: 1.3rem;
-    line-height: 1.875;
-    color: #393b44;
+    line-height: 1;
+    color: #a1815e;
 }
 
 .profile-pic {
@@ -210,5 +194,61 @@ body
 }
 
 .edu-table {
-    width: 250px;
+    width: 300px;
+}
+
+.edu img:hover {
+    height: 90px;
+    transition: .5s ease;
+}
+
+.text-alt a {
+    font-family: "montserrat-regular", sans-serif;
+    font-size: 2.3rem;
+    line-height: 4;
+    text-decoration:none;
+    color: #393b44;
+}
+
+.text-alt a:hover {
+    animation: textFadeIn 0.5s;
+    color: #caa37a;
+}
+
+.event {
+    position: relative;
+    padding-left: 10rem;
+    min-height: 25rem;
+}
+
+.cv-marker {
+    width: 6.6rem;
+    height: 6.6rem;
+    box-shadow: 0 0 0 0.9rem #d5d6db;
+    border-radius: 100%;
+    position: absolute;
+    top: .3rem;
+    left: .9rem;
+    outline: none;
+}
+
+.time {
+    font-family: "montserrat-regular", sans-serif;
+    font-size: 1.4rem;
+    line-height: 0.4; 
+    color: #a1815e;
+}
+
+.t {
+    font-family: 'librebaskerville-regular', serif;
+    font-size: 1.5rem;
+    line-height: 1.7;
+    color: #393b44;
+}
+
+.role {
+    font-family: "montserrat-regular", sans-serif;
+    font-size: 1.6rem;
+    line-height: 0.6;
+    color: #393b44;
 }
