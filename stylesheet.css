@@ -247,6 +247,13 @@ body
 .small-text {
     font-family: "montserrat-regular", sans-serif;
     font-size: 1.3rem;
+    line-height: 1.4;
+    color: #393b44;
+}
+
+.lang {
+    font-family: "montserrat-regular", sans-serif;
+    font-size: 1.3rem;
     line-height: 1;
     color: #a1815e;
 }
@@ -307,7 +314,7 @@ body
 .time {
     font-family: "montserrat-regular", sans-serif;
     font-size: 1.4rem;
-    line-height: 0.4; 
+    line-height: 0.6; 
     color: #a1815e;
 }
 
@@ -321,6 +328,6 @@ body
 .role {
     font-family: "montserrat-regular", sans-serif;
     font-size: 1.6rem;
-    line-height: 0.6;
+    line-height: 1.2;
     color: #393b44;
 }
