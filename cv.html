@@ -23,11 +23,22 @@
                     <li><a class="header" href="/contact">Contact</a></li>
                 </ul>
             </nav>
+            
         </header>
 
-        <section class="content"> <!-- /.CV -->
+        
+
+        <nav class="cv-nav">
+            <ul class="cv-nav-links">
+                <li><a class="cv-nav-button" href="/">Download my CV</a></li>
+                <li><a class="cv-nav-link" href="#exp">Experience</a></li>
+                <li><a class="cv-nav-link" href="#pro">Projects</a></li>
+                <li><a class="cv-nav-link" href="#info">Misc.</a></li>
+            </ul>
+        </nav>
+
+        <section class="content-exp" id="exp"> <!-- /.CV -->
             <div class="container">
-                <a href="" class="button">Download My CV here</a>
 
                 <h1 class="l-title">Experience</h1>
 
@@ -67,23 +78,42 @@
                         <li class = "t">Extracted information from criminal cases and presented it to supervisors to expedite work for litigation department.</li>
                         <li class = "t">Attended and analyzed court hearings to develop in-depth knowledge about courtroom proceedings and effective legal communication, learning first-hand from lawyers.</li>
                 </div>
+            </div>
+        </section>
 
+
+        <section class="content-proj" id="pro">
+            <div class="container">
                 <h1 class="l-title">Projects</h1>
 
-                <p class = "text-alt-l"><b>C Project</b></p>
-                <p class = "text-alt">Imperial College London Computing Year 1 Summer Term Project (2020)</p>
-                <p class = "small-text"><b>Languages: C</b></p>
-                        <li class = "t">Implemented an ARM emulator, assembler and assembly program in C</li>
-                        <li class = "t">Extended the project’s functionality by using it to create a digital 
-                                payment system that takes orders and generates receipts automatically, receiving an overall grade of A*</li>
+                <div class="event">
+                    <img src ="img/icl.png" class="cv-marker">
+                    <p class = "time">Apr 2020 - June 2020</p>
+                    <p class = "text-alt-l"><b>C Project</b></p>
+                    <p class = "role">Imperial College London Computing Year 1 Summer Term Project</p>
+                    <p class = "small-text"><b>C</b></p>
+                    <li class = "t">Implemented an ARM emulator, assembler and assembly program in C.</li>
+                    <li class = "t">Extended the project’s functionality by using it to create a digital 
+                                payment system that takes orders and generates receipts automatically, receiving an overall grade of A*.</li>
+                </div>
 
-                <p class = "text-alt-l"><b>Applying Deep Learning to Tactile Perception through Natural Language Processing</b></p>
-                <p class = "text-alt">Nanyang Research Program, Researcher (2017 - 2018)</p>
-                <p class = "small-text"><b>Languages: Python</b></p>
-                        <li class = "t">Research paper was published at the 19th International Conference on Computational Linguistics and Intelligent Text Processing</li>
-                        <li class = "t">Received Gold award from Nanyang Research Program, a research outreach program conducted by Nanyang Technological University</li>
+                <div class="event">
+                    <img src ="img/icl.png" class="cv-marker">
+                    <p class = "time">2017 - 2018</p>
+                    <p class = "text-alt-l"><b>Applying Deep Learning to Tactile Perception through Natural Language Processing</b></p>
+                    <p class = "role">Nanyang Research Program</p>
+                    <p class = "small-text"><b>Python</b></p>
+                    <li class = "t">Led a team to apply Deep Learning to tactile perception through Natural Language Processing using Python.</li>
+                    <li class = "t">Research paper was published at the 19th International Conference on Computational Linguistics and Intelligent Text Processing.</li>
+                    <li class = "t">Received Gold award from Nanyang Research Program, a research outreach program conducted by Nanyang Technological University.</li>
+                </div>
+            </div>
+        </section>
 
-                <h1 class="l-title">Additional Information</h1>
+        <section class="content-info" id="info">
+            <div class="container">
+
+                <h1 class="l-title" id="info">Additional Information</h1>
                     <div class="left">
                         <p class = "text-alt-l"><b>Skills</b></p>
                         <li class = "t">Experienced in Java, Haskell, C, Python, JavaScript, SQL, Node.js, and HTML & CSS.</li>

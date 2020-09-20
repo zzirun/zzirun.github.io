@@ -24,6 +24,7 @@ html
 {
     font-size: 10px;
     overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 
 body
@@ -117,19 +118,88 @@ body
     color: #d6e0f0;
 }
 
+.cv-nav {
+    font-family: "montserrat-bold", sans-serif;
+    font-size: 10px;
+    width: 200px;
+    text-transform: uppercase;
+    letter-spacing: .25rem;
+    position: fixed;
+    padding-top: 12.5rem;
+    left: 12px;
+    animation: fadein ease 0.5s; 
+}
+
+.cv-nav-links {
+    
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    height: 36px;
+}
+
+.cv-nav-links li {
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+.cv-nav-links li a {
+    display: block;
+    line-height: 36px;
+    text-decoration: none;
+    color: #393b44;
+}
+
+.cv-nav-links li a:hover {
+    display: block;
+    line-height: 50px;
+    text-decoration: none;
+    color: #caa37a;
+    transition: .7s ease;
+}
+
 
 .content {
     padding-top: 8rem;
     padding-bottom: 12rem;
     padding-left: 20%;
     padding-right: 20%;
+
+    animation: fadein ease 0.5s;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+}
+
+.content-exp {
+    padding-top: 8rem;
+    padding-left: 25%;
+    padding-right: 23%;
+
+    animation: fadein ease 0.5s;
+}
+
+.content-proj {
+    padding-top: 8rem;
+    padding-left: 25%;
+    padding-right: 23%;
+
+    animation: fadein ease 0.5s; 
+}
+
+.content-info {
+    padding-top: 8rem;
+    padding-bottom: 12rem;
+    padding-left: 25%;
+    padding-right: 23%;
+
+    animation: fadein ease 0.5s; 
 }
 
 .content-index {
     padding-top: 16rem;
     padding-bottom: 12rem;
-    
-    
+
+    animation: fadein ease 0.5s;
 }
 
 .content-edu {
@@ -137,6 +207,8 @@ body
     padding-bottom: 20rem;
     margin-left: auto;
     margin-right: auto;
+
+    animation: fadein ease 0.5s;
 }
 
 .p {
@@ -168,7 +240,7 @@ body
 .text-alt-l {
     font-family: "montserrat-regular", sans-serif;
     font-size: 1.8rem;
-    line-height: 1;
+    line-height: 1.2;
     color: #393b44;
 }
 
@@ -218,7 +290,7 @@ body
 .event {
     position: relative;
     padding-left: 10rem;
-    min-height: 25rem;
+    padding-bottom: 5rem;
 }
 
 .cv-marker {
