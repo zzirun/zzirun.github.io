@@ -162,8 +162,8 @@ body
 .content {
     padding-top: 8rem;
     padding-bottom: 12rem;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 40%;
+    padding-right: 10%;
 
     animation: fadein ease 0.5s;
     animation-iteration-count: 1; 
@@ -239,7 +239,7 @@ body
 
 .text-alt-l {
     font-family: "montserrat-regular", sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     line-height: 1.2;
     color: #393b44;
 }
@@ -313,21 +313,22 @@ body
 
 .time {
     font-family: "montserrat-regular", sans-serif;
-    font-size: 1.4rem;
-    line-height: 0.6; 
+    font-size: 1.3rem;
+    line-height: 0.4; 
     color: #a1815e;
 }
 
 .t {
-    font-family: 'librebaskerville-regular', serif;
-    font-size: 1.5rem;
+    font-family: 'montserrat-regular', serif;
+    font-size: 1.4rem;
     line-height: 1.7;
-    color: #393b44;
+    color: #393b44; 
+    text-indent: -1.35em;
 }
 
 .role {
     font-family: "montserrat-regular", sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     line-height: 1.2;
     color: #393b44;
 }
@@ -377,4 +378,34 @@ body
     text-align: center;
 
     animation: fadein ease 0.5s; 
+}
+
+.sidebar-icl{
+    top: 10%;
+    height: 90%;
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    background-image: url("img/icl-big.jpg");
+    background-position: 40%;
+    background-size: cover;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 16px;
+}
+
+.sidebar-hci{
+    top: 10%;
+    height: 90%;
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    background-image: url("img/hci-big.jpg");
+    background-position: 31%;
+    background-size: cover;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 16px;
 }
