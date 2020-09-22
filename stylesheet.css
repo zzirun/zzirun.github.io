@@ -197,7 +197,7 @@ body
 
 .content-index {
     padding-top: 16rem;
-    padding-bottom: 12rem;
+    padding-bottom: 2rem;
 
     animation: fadein ease 0.5s;
 }
@@ -277,13 +277,13 @@ body
 }
 
 .edu img:hover {
-    height: 90px;
+    transform: scale(1.2);
     transition: .5s ease;
 }
 
 .text-alt a {
-    font-family: "montserrat-regular", sans-serif;
-    font-size: 2.3rem;
+    font-family: "librebaskerville-bold", sans-serif;
+    font-size: 2.1rem;
     line-height: 4;
     text-decoration:none;
     color: #393b44;
@@ -330,4 +330,51 @@ body
     font-size: 1.6rem;
     line-height: 1.2;
     color: #393b44;
+}
+
+.contact {
+    position: relative;
+    display: inline-block;
+}
+
+.contact-table {
+    width: 100px;
+}
+
+.contact img {
+    position: absolute;
+}
+
+.contact img:hover {
+    transform: scale(1.2);
+    transition: .5s ease;
+}
+
+.contact .tooltiptext {
+    visibility: hidden;
+    width: 100px;
+    background-color: #393b44;
+    font-family: "montserrat-regular", sans-serif;
+    font-size: 15px;
+    color: #d6e0f0;
+    text-align: center;
+    padding: 3px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 70px;
+    margin-left: -25px;
+}
+  
+.contact:hover .tooltiptext {
+    visibility: visible;
+    animation: fadein ease 0.7s; 
+}
+
+.notes {
+    padding-top: 4rem;
+    text-align: center;
+
+    animation: fadein ease 0.5s; 
 }
