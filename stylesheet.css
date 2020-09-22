@@ -381,8 +381,8 @@ body
 }
 
 .sidebar-icl{
-    top: 10%;
-    height: 90%;
+    top: 72px;
+    height: 100%;
     width: 30%;
     position: fixed;
     z-index: 1;
@@ -396,8 +396,8 @@ body
 }
 
 .sidebar-hci{
-    top: 10%;
-    height: 90%;
+    top: 72px;
+    height: 100%;
     width: 30%;
     position: fixed;
     z-index: 1;
