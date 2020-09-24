@@ -25,7 +25,7 @@
         </header>
 
         
-        <section class="content-edu"> <!-- /.EDUCATION -->
+        <!-- <section class="content-edu">
             <div class="container">
 
                 <table style="margin-left:auto;margin-right:auto;">
@@ -39,9 +39,95 @@
             
 
 
+            </div>
+        </section> -->
+
+        <div class="sidebar-icl" id="sidebar">
+            <div class="edu-buttons">
+                <button class ="edu-button-active" id="icl-button">Imperial College London</button>
+                <button class ="edu-button" id="hci-button">Hwa Chong Institution</button>
+            </div>
+        </div>
+
+        
+        <section class="content-e-active" id="icl"> <!-- /.EDUCATION -->
+            <div class="container">
+
+                <div class = "left">
+                    <h1 class = "l-title">Imperial College London</h1>
+                    <h1 class = "title">(Sep 2019 - Present)</h1>
+                    <h1 class = "title">Bachelor of Engineering, Computing</h1>
+                    <p class = "text-alt"><b>First Year</b> - Overall A, with an A in Programming Practical I</p>
+                    <p class = "small-text"> <b>Modules:</b> Logic， Discrete Mathematics， Reasoning about Programs， 
+                        Mathematics 1， Graphs and Algorithms， 
+                        Introduction to Computer Systems， Introduction to Computer Architecture, 
+                        Computing Practical I, Programming（Haskell，Java， C）</p>
+
+                    <p class = "text-alt"><b>Second Year</b> - Ongoing</p>
+                    <p class = "small-text"> <b>Modules:</b> Algorithms II， Operating systems， Networks and Communications， 
+                        Software Engineering Design， Compilers， Intro to Model-based AI， Computational Techniques， 
+                        Models of Computation， Probability and Statistics， Laboratory， Intro to Prolog</p>
+
+                    <h1 class = "title"><b>Extracurriculars</b></h1>
+                    <p class = "text-alt"><b>Singapore Society</b></p>
+                    <p class = "text-alt">Academic Representative for Computing (2020-2021)</p>
+                    <p class = "small-text">Executed administrative duties for social events among Singaporean Computing students and provided assistance and advice to first-years.</p>
+                    
+                    <p class = "text-alt">"Major Event" Musical - Chorale Member (2019)</p>
+                    <p class = "small-text">Performed as a member of Chorale for the annual musical organized by the society after 6 months of regular practice.</p>
+
+                </div>
+                
+            </div><!-- /.container -->
+        </section>
+
+        <section class="content-e" id="hci"> <!-- /.EDUCATION -->
+            <div class="container">
+
+                <div class = "left">
+                    <h1 class = "l-title">Hwa Chong Institution</h1>
+                    <h1 class = "title">(Jan 2017 - Dec 2018)</h1>
+                    <p class = "text-alt"><b>Cambridge-Singapore GCE-A Levels:</b></p>
+                    <p class = "small-text">Physics, Chemistry, Mathematics, Economics, General Paper, Project Work</p>
+                    <p class = "text-alt"><b>Gifted and Talented Education (Physics):</b></p>
+                    <p class = "small-text">A talent program for high achievers in Mathematics and Sciences with a class of 25 students selected from 2000 students.</p>
+                    <h1 class = "title"><b>Extracurriculars:</b></h1>
+                    <p class = "text-alt"><b>Meet-the-People Sessions:</b> Volunteer (2018-2019)</p>
+                    <p class = "small-text">Volunteered as an administrative assistant during weekly sessions where members of the local community were able to seek assistance from elected leaders</p>
+                    
+                    <p class = "text-alt"><b>International Science Youth Forum:</b> Organizing Committee Member (2018)</p>
+                    <p class = "small-text">Hosted Nobel laureates and facilitated their Dialogue and Masterclass sessions</p>
+
+                    <p class = "text-alt"><b>Willing Hearts Soup Kitchen: </b> Volunteer (2016)</p>
+                    <p class = "small-text">Awarded the National Youth Achievement Award, Silver for 6 months of dedicated service</p>
+
+                </div>
+                
             </div><!-- /.container -->
         </section>
         
+        <script>
+            document.getElementById("icl-button").addEventListener("click", openIclTab);
+            document.getElementById("hci-button").addEventListener("click", openHciTab);
+
+            function openIclTab() {
+                document.getElementById("hci").className = "content-e";
+                document.getElementById("hci-button").className = "edu-button";
+
+                document.getElementById("icl").className = "content-e-active";
+                document.getElementById("icl-button").className = "edu-button-active";
+                document.getElementById("sidebar").className = "sidebar-icl";
+            }
+
+            function openHciTab() {
+                document.getElementById("icl").className = "content-e";
+                document.getElementById("icl-button").className = "edu-button";
+
+                document.getElementById("hci").className = "content-e-active";
+                document.getElementById("hci-button").className = "edu-button-active";
+                document.getElementById("sidebar").className = "sidebar-hci";
+            }
+        </script>
 
     </body>
 

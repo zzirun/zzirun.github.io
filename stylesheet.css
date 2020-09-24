@@ -218,6 +218,29 @@ body
     animation-fill-mode: forwards; 
 }
 
+.content-e-active {
+    padding-top: 8rem;
+    padding-bottom: 12rem;
+    padding-left: 40%;
+    padding-right: 10%;
+
+    animation: fadein ease 0.5s;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+}
+
+.content-e {
+    display: none;
+    padding-top: 8rem;
+    padding-bottom: 12rem;
+    padding-left: 40%;
+    padding-right: 10%;
+
+    animation: fadein ease 0.5s;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+}
+
 .content-exp {
     padding-top: 8rem;
     padding-left: 25%;
@@ -453,7 +476,50 @@ body
     background-image: url("img/hci-big.jpg");
     background-position: 31%;
     background-size: cover;
-    background-color: black;
+    background-color: #393b44;
     overflow-x: hidden;
     padding-top: 16px;
+}
+
+.edu-button {
+    display: inline-block;
+    width: 86%;
+    margin-left: 7%;
+    margin-top: 2%;
+    background-color: #d6e0f0;
+    box-shadow: 0 0 3px #d6e0f0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.3s;
+    font-family: 'montserrat-bold', sans-serif;
+    color: #393b44;
+    text-transform: uppercase;
+    font-size: 10px;
+
+    border: none;
+}
+
+.edu-button:hover {
+    color: #a1815e;
+}
+
+.edu-button-active {
+    display: inline-block;
+    width: 86%;
+    margin-left: 7%;
+    margin-top: 2%;
+    background-color: #d6e0f0;
+    box-shadow: 0 0 3px #d6e0f0;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.3s;
+    font-family: 'montserrat-bold', sans-serif;
+    color: #a1815e;
+    text-transform: uppercase;
+    font-size: 10px;
+
+    border: 1px solid #d6e0f0;
 }
