@@ -137,6 +137,10 @@ body
 }
 
 @media screen and (max-width: 600px) {
+    .header-logo {
+        left: 5%;
+    }
+    
     .main-nav {
         display: none;
         height: auto;
