@@ -334,7 +334,7 @@ body
     }
     .content-index-mob {
         display: block;
-        padding-top: 8rem;
+        padding-top: 10rem;
         padding-bottom: 2rem;
         padding-left: 5%;
         padding-right: 5%;
@@ -342,7 +342,8 @@ body
         animation: fadein ease 0.5s;
     }
     .content-index-mob .i-title {
-        line-height: 1.2;
+        font-size: 4rem;
+        line-height: 1.0;
     }
 }
 
