@@ -324,6 +324,25 @@ body
     animation: fadein ease 0.5s;
 }
 
+.content-index-mob {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .content-index {
+        display: none;
+    }
+    .content-index-mob {
+        display: block;
+        padding-top: 10rem;
+        padding-bottom: 2rem;
+        padding-left: 5%;
+        padding-right: 5%;
+
+        animation: fadein ease 0.5s;
+    }
+}
+
 .content-edu {
     padding-top: 20rem;
     padding-bottom: 20rem;
