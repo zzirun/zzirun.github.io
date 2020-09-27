@@ -345,6 +345,18 @@ body
     .left {
         padding-left: 5%;
     }
+    .content-exp .l-title {
+        font-size: 4rem;
+        line-height: 1.3;
+    }
+    .content-info .l-title {
+        font-size: 4rem;
+        line-height: 1.3;
+    }
+    .content-proj .l-title {
+        font-size: 4rem;
+        line-height: 1.3;
+    }
 }
 
 .content-index {
