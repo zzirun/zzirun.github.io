@@ -357,6 +357,15 @@ body
         font-size: 4rem;
         line-height: 1.3;
     }
+    .content-exp .t {
+        text-indent: -1.3rem;
+    }
+    .content-info .t {
+        text-indent: -1.3rem;
+    }
+    .content-proj .t {
+        text-indent: -1.3rem;
+    }
 }
 
 .content-index {
