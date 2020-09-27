@@ -334,12 +334,15 @@ body
     }
     .content-index-mob {
         display: block;
-        padding-top: 10rem;
+        padding-top: 8rem;
         padding-bottom: 2rem;
         padding-left: 5%;
         padding-right: 5%;
 
         animation: fadein ease 0.5s;
+    }
+    .content-index-mob .i-title {
+        line-height: 1.2;
     }
 }
 
