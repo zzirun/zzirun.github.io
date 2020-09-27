@@ -140,7 +140,7 @@ body
     .header-logo {
         left: 5%;
     }
-    
+
     .main-nav {
         display: none;
         height: auto;
@@ -233,6 +233,12 @@ body
     animation: fadein ease 0.5s; 
 }
 
+@media screen and (max-width: 600px) {
+    .cv-nav {
+        display: none;
+    }
+}
+
 .cv-nav-links {
     
     display: inline-block;
@@ -319,6 +325,26 @@ body
     padding-right: 23%;
 
     animation: fadein ease 0.5s; 
+}
+
+@media screen and (max-width: 600px) {
+    .content-exp {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .content-proj {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .content-info {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .left {
+        padding-left: 5%;
+    }
 }
 
 .content-index {
