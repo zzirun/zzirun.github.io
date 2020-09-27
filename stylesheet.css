@@ -396,6 +396,10 @@ body
         font-size: 4rem;
         line-height: 1.0;
     }
+    .content-index-mob .notes {
+        text-align: left;
+        padding-top: 80px;
+    }
 }
 
 .content-edu {
