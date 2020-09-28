@@ -330,17 +330,17 @@ body
 @media screen and (max-width: 600px) {
     .content-exp {
         padding-left: 5%;
-        padding-right: 5%;
+        padding-right: 7%;
     }
 
     .content-proj {
         padding-left: 5%;
-        padding-right: 5%;
+        padding-right: 7%;
     }
 
     .content-info {
         padding-left: 5%;
-        padding-right: 5%;
+        padding-right: 7%;
     }
     .left {
         padding-left: 5%;
@@ -388,7 +388,7 @@ body
         padding-top: 10rem;
         padding-bottom: 2rem;
         padding-left: 5%;
-        padding-right: 5%;
+        padding-right: 7%;
 
         animation: fadein ease 0.5s;
     }
@@ -623,7 +623,7 @@ body
         padding-top: 10rem;
         padding-bottom: 6rem;
         padding-left: 5%;
-        padding-right: 5%;
+        padding-right: 7%;
     
         animation: fadein ease 0.5s;
         animation-iteration-count: 1; 
@@ -635,7 +635,7 @@ body
         padding-top: 2rem;
         padding-bottom: 12rem;
         padding-left: 5%;
-        padding-right: 5%;
+        padding-right: 7%;
     
         animation: fadein ease 0.5s;
         animation-iteration-count: 1; 
