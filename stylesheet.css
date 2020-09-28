@@ -139,6 +139,7 @@ body
 @media screen and (max-width: 600px) {
     .header-logo {
         left: 5%;
+        z-index: 1;
     }
 
     .main-nav {
@@ -150,6 +151,7 @@ body
         left: 0;
         background-color: #393b44;
         padding: 120px 40px 21px;
+        animation: fadein 0.5s;
     }
 
     .main-nav .main-nav-links {
