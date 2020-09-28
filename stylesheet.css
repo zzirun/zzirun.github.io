@@ -610,6 +610,49 @@ body
     padding-top: 16px;
 }
 
+.sch-img-mob {
+    display: none;
+    width:100%;
+}
+
+@media screen and (max-width: 600px) {
+    .sidebar-icl {
+        display: none;
+    }
+    .content-e-active {
+        padding-top: 10rem;
+        padding-bottom: 6rem;
+        padding-left: 5%;
+        padding-right: 5%;
+    
+        animation: fadein ease 0.5s;
+        animation-iteration-count: 1; 
+        animation-fill-mode: forwards; 
+    }
+    
+    .content-e {
+        display: block;
+        padding-top: 2rem;
+        padding-bottom: 12rem;
+        padding-left: 5%;
+        padding-right: 5%;
+    
+        animation: fadein ease 0.5s;
+        animation-iteration-count: 1; 
+        animation-fill-mode: forwards; 
+    }
+
+    .content-e-active .l-title {
+        font-size: 4rem;
+    }
+    .content-e .l-title {
+        font-size: 4rem;
+    }
+    .sch-img-mob {
+        display: block;
+    }
+}
+
 .edu-button {
     display: inline-block;
     width: 86%;
